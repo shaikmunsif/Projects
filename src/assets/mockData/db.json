@@ -2,10 +2,10 @@
   "products": [
     {
       "id": 1,
-      "name": "head phpone 1",
-      "category_id": 2,
+      "name": "RealMe Narzo 30",
+      "category_id": 1,
       "description" : "Product description goes here",
-      "price" : 100,
+      "price" : 10000,
       "is_available" : true,
       "rating" : 4,
       "reviews" : 120,
@@ -14,7 +14,7 @@
     },
     {
       "id": 2,
-      "name": "head phpone 2",
+      "name": "head phpone 1",
       "category_id": 2,
       "description" : "Product description goes here",
       "price" : 649,
@@ -26,7 +26,7 @@
     },
     {
       "id": 3,
-      "name": "head phpone 3",
+      "name": "head phpone 2",
       "category_id": 2,
       "description" : "Product description goes here",
       "price" : 550,
@@ -38,8 +38,8 @@
     },
     {
       "id": 4,
-      "name": "head phpone 4",
-      "category_id": 2,
+      "name": "JBL Bluetooth Headset",
+      "category_id": 3,
       "description" : "Product description goes here",
       "price" : 400,
       "is_available" : true,
@@ -47,6 +47,20 @@
       "reviews" : 120,
       "vendor_name": "seller -2",
       "warranty":2
+    }
+  ],
+  "categories":[
+    {
+      "id" : 1,
+      "name" : "Mobiles"
+    },
+    {
+      "id" : 2,
+      "name" : "Head Phones"
+    },
+    {
+      "id" : 3,
+      "name" : "Bluetooth"
     }
   ],
   "comments": [

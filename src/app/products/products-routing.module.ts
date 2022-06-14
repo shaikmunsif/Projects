@@ -12,7 +12,7 @@ const routes: Routes = [
   },
   {
     path: '',
-    component: ProductsComponent,
+    component: ViewAllProductsComponent,
   },
   {
     path: 'create-product',
@@ -23,7 +23,7 @@ const routes: Routes = [
     component: ViewAllProductsComponent,
   },
   {
-    path: 'view-product',
+    path: 'view-product/:id',
     component: ViewProductComponent,
   },
 ];

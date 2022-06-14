@@ -10,6 +10,7 @@ import { UpdateProductComponent } from './update-product/update-product.componen
 import { DeleteProductComponent } from './delete-product/delete-product.component';
 import { ViewProductsByDateComponent } from './view-products-by-date/view-products-by-date.component';
 import { ViewProductsBycategoryComponent } from './view-products-bycategory/view-products-bycategory.component';
+import {RouterModule} from '@angular/router';
 
 
 
@@ -26,7 +27,8 @@ import { ViewProductsBycategoryComponent } from './view-products-bycategory/view
   ],
   imports: [
     CommonModule,
-    ProductsRoutingModule
+    ProductsRoutingModule,
+    RouterModule
   ]
 })
 export class ProductsModule { }
